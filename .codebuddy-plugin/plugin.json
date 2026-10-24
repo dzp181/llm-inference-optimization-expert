@@ -1,0 +1,57 @@
+{
+  "name": "llm-inference-optimization-expert",
+  "version": "1.0.0",
+  "description": "LLM inference optimization expert: quantization, distillation, KV cache, PagedAttention, speculative decoding, vLLM/TensorRT-LLM/SGLang deployment, and throughput & latency tuning with cost reduction.",
+  "author": {
+    "name": "dzp181",
+    "email": "dzp181@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/dzp181",
+  "license": "MIT",
+  "keywords": [
+    "大模型推理优化",
+    "LLM Inference Optimization",
+    "推理加速",
+    "模型量化",
+    "vLLM",
+    "TensorRT-LLM",
+    "KV Cache",
+    "蒸馏压缩",
+    "SGLang",
+    "llama.cpp"
+  ],
+  "agents": ["./agents/llm-inference-optimization-expert.md"],
+
+  "expertType": "agent",
+  "agentName": "llm-inference-optimization-expert",
+
+  "displayName": {
+    "en": "LLM Inference Optimization Expert",
+    "zh": "大模型推理优化专家"
+  },
+  "profession": {
+    "en": "LLM Inference Optimization Expert",
+    "zh": "大模型推理优化专家"
+  },
+  "displayDescription": {
+    "en": "Cuts LLM serving cost and latency: quantization, KV cache, continuous batching, vLLM/TensorRT-LLM deployment, throughput and TTFT tuning with measurable benchmarks.",
+    "zh": "专注大模型推理降本提速：量化、KV Cache、连续批处理与 vLLM 部署，优化吞吐与首字延迟。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "帮我把一个 7B 模型量化到 4bit，并评估精度与显存变化",
+    "en": "Quantize a 7B model to 4-bit and evaluate accuracy and VRAM changes"
+  },
+  "plugin": "llm-inference-optimization-expert",
+  "tags": [
+    { "en": "Quantization & Compression", "zh": "量化与压缩" },
+    { "en": "Inference Engines", "zh": "推理引擎部署" },
+    { "en": "Latency & Throughput Tuning", "zh": "延迟与吞吐调优" }
+  ],
+  "quickPrompts": [
+    { "en": "Quantize a 7B model to 4-bit and evaluate accuracy and VRAM changes", "zh": "帮我把一个 7B 模型量化到 4bit，并评估精度与显存变化" },
+    { "en": "Deploy Qwen with vLLM and maximize throughput under a fixed GPU budget", "zh": "用 vLLM 部署 Qwen，在固定显存下把吞吐拉到最高" },
+    { "en": "Profile my inference service P99 latency and propose an optimization plan", "zh": "分析我的推理服务 P99 延迟瓶颈，给出优化方案" }
+  ]
+}
